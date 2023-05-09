@@ -1,0 +1,74 @@
+body {
+    /* background-color: #849be6; */
+    background-image: url('image-background.jpeg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #BBBBBB;
+    padding: 20px;
+    width: 400px;
+  }
+  
+  h1 {
+    color: #007FFF;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid #BBBBBB;
+    padding: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007FFF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+
+/* Effects */
+input[type="text"]:hover,
+input[type="password"]:hover {
+  box-shadow: 0px 0px 5px #007FFF;
+}
+
+button[type="submit"] i {
+  animation: spin 1s linear infinite;
+}
+button[type="submit"]:hover {
+  background-color: #0058B8;
+  box-shadow: 0px 0px 5px #0058B8;
+}
+
+
