@@ -8,8 +8,13 @@ During May 9th and 10th, 2023, Hicron visited the 42 Málaga Fundación Telefón
 - The app will be used by employees and managers. 
 
 ## Technologies used
+| Technology | Function | Description |
 | --- | --- | --- |
-|  IDE        | Visual Studio Code | 
-| Backend        | NodeJS, Express | 
-| Frontend        | HTML, CSS, JavaScript | 
-| Database        | PostgreSQL |
+| VS Code | IDE | Free source-code editor made by Microsoft for Windows, Linux and macOS |
+| Node.js | Backend | Server-side JavaScript runtime environment |
+|Express  |	Backend	| Web application framework for Node.js |
+| PostgreSQL | Database | Open source relational database management system |
+| HTML | Frontend | Markup language for creating web pages |
+| CSS | Frontend | Style sheet language for web pages |
+| JavaScript | Frontend | Client-side scripting language |
+
