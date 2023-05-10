@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <title>Log in</title>
     <link rel="stylesheet" type="text/css" href="login.component.css">
-    <script></script>
   </head>
   <body>
     <div class="container">
       <h1>Welcome </h1>
-      <form>
+      <form onsubmit="alerta()">
         <div class="input-group">
           <label for="username">Username</label>
           <input type="text" id="username" name="username" required>
@@ -18,7 +17,7 @@
           <label for="password">Password</label>
           <input type="password" id="password" name="password" required>
         </div>
-        <button type="submit">Log in</button>
+        <button type="submit" (click)="onSubmit()">Log in</button>
       </form>
     </div>
   </body>

@@ -1,3 +1,34 @@
+function helloworld(){
+    const express = require('express');
+    const bodyParser = require('body-parser');
+    const cors = require('cors');
+    const jwt = require('jsonwebtoken');
+    const { Pool } = requir('pg');
+
+
+    const pool = new Pool({
+        user: 'postgres',
+        host: 'localhost',
+        database: 'database',
+        password: '1234',
+        port: 5432, 
+    });
+
+    pool.query('SELECT * FROM USERS', (err, res) => {
+        if (err){
+            console.error(err);
+            res.status(500).send('Error connection');
+        }
+        else {
+            res.send(result.rows);
+        }
+        // console.log(err, res);
+        // pool.end();
+    });
+
+}
+
+
 // const form = document.querySelector('form');
 // const usernameInput = document.querySelector('#username');
 // const passwordInput = document.querySelector('#password');
