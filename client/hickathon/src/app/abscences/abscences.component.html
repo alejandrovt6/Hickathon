@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Absences Manager</title>
+    <link rel="stylesheet" href="abscences.component.css">
+</head>
+<body>
+    <header>
+        <h1>Absences Manager</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Absences</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+    </header>
+
+<main>
+    <h2>Manage Absences</h2>
+    <div class="absence-form">
+    <h3>Select Absence Type:</h3>
+    <form>
+        <div class="radio">
+            <input type="radio" name="absence-type" id="vacation" value="vacation">
+            <label for="vacation">Vacation</label>
+        </div>
+        <div class="radio">
+            <input type="radio" name="absence-type" id="sick" value="sick">
+            <label for="sick">Sick</label>
+        </div>
+        <div class="radio">
+            <input type="radio" name="absence-type" id="personal" value="personal">
+            <label for="personal">Personal</label>
+        </div>
+    </form>
+        <h3>Select Dates:       </h3>
+    <form>
+        <div>
+            <label for="start-date">Start Date: </label>
+            <input type="date" id="start-date" name="start-date">
+        </div>
+        <div>
+            <label for="end-date">End Date: </label>
+            <input type="date" id="end-date" name="end-date">
+        </div>
+    </form>
+    <button type="submit">Submit</button>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2023 Absences Manager</p>
+</footer>
+</body>
+</html>
