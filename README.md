@@ -18,3 +18,9 @@ During May 9th and 10th, 2023, Hicron visited 42 Málaga Fundación Telefónica 
 | CSS | Frontend | Style sheet language for web pages |
 | JavaScript | Frontend | Client-side scripting language |
 
+## Users created
+| Username | Password | Rol |
+| --- | --- | --- |
+| alejandrovt | 1234 | admin |
+| juandr | 1234 | employee |
+| marials | 1234 | employee |
