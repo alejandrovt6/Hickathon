@@ -1,7 +1,7 @@
 # Abscence manager
 
 ## The program
-During May 9th and 10th, 2023, Hicron visited the 42 Málaga Fundación Telefónica facilities to propose a challenge to the students:
+During May 9th and 10th, 2023, Hicron visited 42 Málaga Fundación Telefónica facilities to propose a challenge to the students:
 
 - Your goal is to make a people management app to handle absences in a small company.
 

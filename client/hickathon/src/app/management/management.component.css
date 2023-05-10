@@ -1,0 +1,55 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007FFF;
+}
+
+.absences {
+    display: flex;
+    flex-direction: column;
+}
+
+.absence {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e6f4ff;
+}
+
+.absence-info {
+    flex: 1;
+}
+
+.absence-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007FFF;
+}
+
+.absence-info p {
+    margin: 5px 0;
+}
+
+.absence-actions button {
+    background-color: #007FFF;
+    border: 1px solid #007FFF;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.absence-actions button:hover {
+    background-color: #0058B8;
+    color: #fff;
+}
