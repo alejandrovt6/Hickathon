@@ -14,6 +14,7 @@ During May 9th and 10th, 2023, Hicron visited 42 Málaga Fundación Telefónica 
 | Node.js | Backend | Server-side JavaScript runtime environment |
 |Express  |	Backend	| Web application framework for Node.js |
 | PostgreSQL | Database | Open source relational database management system |
+| Angular | Frontend | TypeScript-based open-source front-end web application framework. |
 | HTML | Frontend | Markup language for creating web pages |
 | CSS | Frontend | Style sheet language for web pages |
 | JavaScript | Frontend | Client-side scripting language |
