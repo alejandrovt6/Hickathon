@@ -19,7 +19,7 @@ export class LoginComponent {
   constructor(private router: Router) {}
 
   onSubmit() {
-    this.userType = 'admin';
+    // this.userType = 'admin';
 
     if (this.userType === 'admin') {
       this.router.navigate(['/management']);
